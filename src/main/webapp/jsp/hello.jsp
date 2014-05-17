@@ -1,6 +1,6 @@
 <html>
   <head> JSP</head>
   <body>
-     Hello World  (JSP)
+     Hello World   ${name} !      
   </body>
 </html>
