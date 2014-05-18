@@ -6,12 +6,16 @@
 
 
 <html>
-  <head> JSP</head>
+  <head> Contacts</head>
   <body>
-     Hello World  Zaki Ahmad !
-     <c:forEach var="name" items="${names}">
-         <h1> Allo, ${name} </h1>
+     <h1>Contact List</h1>
+     <ul>
+     <c:forEach var="contact" items="${contacts}">
+         <li><a href="???"> ${contact.name} </a>  </li>
      </c:forEach>
+     </ul>
+           
+     <a href="contact?add">Add New Contact </a>
            
   </body>
 </html>
